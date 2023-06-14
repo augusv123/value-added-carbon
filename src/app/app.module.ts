@@ -18,6 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { BusinessComponent } from './services/business/business.component';
 import { IndividualsComponent } from './services/individuals/individuals.component';
+import { ProjectsComponent } from './services/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,8 @@ import { IndividualsComponent } from './services/individuals/individuals.compone
     LoginComponent,
     OurServicesComponent,
     BusinessComponent,
+    IndividualsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

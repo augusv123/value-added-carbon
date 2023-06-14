@@ -10,6 +10,8 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { BusinessComponent } from './services/business/business.component';
+import { IndividualsComponent } from './services/individuals/individuals.component';
+import { ProjectsComponent } from './services/projects/projects.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -19,6 +21,8 @@ const routes: Routes =[
     { path: 'services',          component: OurServicesComponent },
     { path: 'login',          component: LoginComponent },
     { path: 'services/business', component: BusinessComponent},
+    { path: 'services/individuals', component: IndividualsComponent},
+    { path: 'services/projects', component: ProjectsComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
