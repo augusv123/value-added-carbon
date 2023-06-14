@@ -1,9 +1,9 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
-    <a class=" mr-lg-5" [routerLink]="['/home']">
-      <!-- <img src="./assets/img/brand/argon-white.png"> -->
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
+      <img src="./assets/img/brand/brandmark-design.png">
       <!-- Imagen de brand -->
-      <span class=" text-white">Value Added Carbon </span>
+      <!-- <span class=" text-white">Value Added Carbon </span> -->
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
           [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
@@ -28,18 +28,18 @@
         </div>
       </div>
   
-      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-        <li class="nav-item dropdown-home">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+        <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown-home" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Home</span>
           </a>
-          <div class="dropdown-menu">
+          <!-- <div class="dropdown-menu">
             <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
             <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
             <a [routerLink]="['/login']" class="dropdown-item">Login</a>
             <a [routerLink]="['/register']" class="dropdown-item">Register</a>
-          </div>
+          </div> -->
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
@@ -47,10 +47,8 @@
             <span class="nav-link-inner--text">Services</span>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Login</a>
-            <a [routerLink]="['/register']" class="dropdown-item">Register</a>
+            <a [routerLink]="['/landing']" class="dropdown-item">For business </a>
+            <a [routerLink]="['/user-profile']" class="dropdown-item">For individuals</a>
           </div>
         </li>
         <li class="nav-item dropdown">
