@@ -16,6 +16,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { BusinessComponent } from './services/business/business.component';
+import { IndividualsComponent } from './services/individuals/individuals.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { OurServicesComponent } from './our-services/our-services.component';
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    BusinessComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,97 @@
+<div class="shape-container d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+  <div class="col px-0">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-10 text-center">
+        <h3 class="font-weight-bold mb-4">Services For Businesses</h3>
+        <div>
+          <p class="text-white"> As the world wakes up to the urgent need for carbon neutrality, companies are facing a new challenge: how to navigate the complex market for carbon credits.</p> 
+          <p class="text-white">With demand soaring, it can be difficult to find a fair price - let alone credits that align with your sustainability goals. </p>
+          <p class="text-white">That's where Valued Added Carbon comes in. We don't just provide carbon credits, we ensure that your investment also contributes to the Sustainable Development Goals and the progress of such contributions is verified and tracked. So you can be confident that you're not just paying for carbon, but making a positive impact on the world.</p> 
+          <p class="text-white">Choose Value Added Carbon for a carbon credit solution that goes above and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+<div class="custom-tab-content flex-column flex-md-row">
+    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav nav-pills justify-content-center" type="pills">
+      <li class="nav-item" [ngbNavItem]="1">
+        <a class="nav-link" ngbNavLink><i class="ni ni-calendar-grid-58 mr-2"></i>Calculate</a>
+        <ng-template ngbNavContent>
+          <div class="tab-content">
+            <h3>Calculate your business footprint today!</h3>
+            <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+            <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+          </div>
+        </ng-template>
+      </li>
+      <li class="nav-item" [ngbNavItem]="2">
+        <a class="nav-link" ngbNavLink>
+          <i class="ni ni-cloud-upload-96 mr-2"></i>Offset
+        </a>
+        <ng-template ngbNavContent>
+          <div class="tab-content">
+            <h3>Purchase Carbon Credits (carbon offsets credits)</h3>
+            <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs? </p>
+                <p class="description">
+                Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            <h3>Offset Portfolio Management (carbon offsets credits)</h3>
+            <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs? </p>
+                <p class="description">
+                Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            <h3>Offset Project Development (carbon removal credits)</h3>
+            <p class="description">We support companies in identifying and developing carbon offset projects specific to their industry or operations. This could involve evaluating project feasibility, coordinating project implementation, and facilitating the verification and certification process. </p>
+            <h3>Corporate Investments (carbon removal credits )</h3>
+            <p class="description">Companies can invest directly in carbon removal technologies or startups working on carbon removal solutions. By providing financial support or venture capital, organizations can help accelerate the development and deployment of carbon removal technologies while potentially gaining access to the resulting carbon removal capacity.</p>
+          </div>
+        </ng-template>
+      </li>
+      <li class="nav-item" [ngbNavItem]="3">
+        <a class="nav-link" ngbNavLink>
+          <i class="ni ni-map-big mr-2"></i>Strategize
+        </a>
+        <ng-template ngbNavContent>
+          <div class="tab-content">
+            <h3>Sustainability Strategy Development</h3>
+            <p class="description">Work with companies to develop customized sustainability strategies aligned with their business goals. Help identify opportunities for carbon reduction and implement sustainable practices across various operations.</p>
+            <h3>Supply chain sustainability</h3>
+            <p class="description">Collaborate with companies to assess and improve the sustainability of their supply chains. Identify areas of emissions reduction, promote sustainable sourcing practices, and facilitate partnerships with suppliers committed to carbon reduction.</p>
+          </div>
+        </ng-template>
+      </li>
+      <li class="nav-item" [ngbNavItem]="4">
+        <a class="nav-link" ngbNavLink>
+          <i class="ni ni-chat-round mr-2"></i>Communicate
+        </a>
+        <ng-template ngbNavContent>
+          <div class="tab-content">
+            <h3>Sustainable Marketing Strategy</h3>
+            <p class="description">Are you making strides towards carbon neutrality and contributing to the Sustainable Development Goals, but struggling to effectively communicate these efforts to your stakeholders? </p>
+            <p class="description">Let us help! Our team of strategic communicators can work with you to craft a messaging plan that highlights your company's sustainability achievements and positions you as a leader in your industry. Don't let your sustainability efforts go unnoticed - partner with us to share your success with the world.</p>
+          </div>
+        </ng-template>
+      </li>
+      <li class="nav-item" [ngbNavItem]="5">
+        <a class="nav-link" ngbNavLink>
+          <i class="ni ni-bell-55 mr-2"></i>Comply
+        </a>
+        <ng-template ngbNavContent>
+          <div class="tab-content">
+            <h3>Compliance and reporting assistance</h3>
+
+            <p class="description">Help companies navigate regulatory requirements and reporting obligations related to carbon emissions. Provide guidance on compliance with relevant standards and regulations, and assist in preparing accurate and transparent emission reports. </p>
+
+          </div>
+        </ng-template>
+      </li>
+    </ul>
+  </div>
+  <div [ngbNavOutlet]="nav" class="custom-tab-content"></div>
+</div>
+</div>
+</div>
+
