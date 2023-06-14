@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-
+  active = 1;
   constructor() { }
 
 }
