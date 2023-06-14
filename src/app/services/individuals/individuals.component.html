@@ -1,0 +1,60 @@
+<div class="shape-container d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+    <div class="col px-0">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h3 class="font-weight-bold mb-4 text-white">Services For Individuals</h3>
+          <div>
+            <p class="text-white"> Join the movement to combat climate change with Carbon Added Value - the hassle-free way to make a difference. We're committed to making sustainability accessible for everyone, so you can play your part without sacrificing convenience. And it's not just about buying carbon credits - we're dedicated to educating and raising awareness about the voluntary carbon market, so you can learn more about the impact of your investment. Don't just be a spectator - be a changemaker with Carbon Added Value.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+  <div class="custom-tab-content flex-column flex-md-row">
+      <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav nav-pills justify-content-center" type="pills">
+        <li class="nav-item" [ngbNavItem]="1">
+          <a class="nav-link" ngbNavLink><i class="ni ni-calendar-grid-58 mr-2"></i>Learn</a>
+          <ng-template ngbNavContent>
+            <div class="tab-content">
+              <h3>Placeholder</h3>
+              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            </div>
+          </ng-template>
+        </li>
+        <li class="nav-item" [ngbNavItem]="2">
+          <a class="nav-link" ngbNavLink>
+            <i class="ni ni-cloud-upload-96 mr-2"></i>Calculate
+          </a>
+          <ng-template ngbNavContent>
+            <div class="tab-content">
+              <h3>Placeholder</h3>
+              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            </div>
+          </ng-template>
+        </li>
+        <li class="nav-item" [ngbNavItem]="3">
+          <a class="nav-link" ngbNavLink>
+            <i class="ni ni-map-big mr-2"></i>Offset
+          </a>
+          <ng-template ngbNavContent>
+            <div class="tab-content">
+              <h3>Placeholder</h3>
+              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            </div>
+          </ng-template>
+        </li>
+      </ul>
+    </div>
+    <div [ngbNavOutlet]="nav" class="custom-tab-content"></div>
+  </div>
+  </div>
+  </div>
+  
+  

@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./individuals.component.css']
 })
 export class IndividualsComponent {
+  active = 1;
   constructor() { }
 
 }
