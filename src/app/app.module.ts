@@ -19,6 +19,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { BusinessComponent } from './services/business/business.component';
 import { IndividualsComponent } from './services/individuals/individuals.component';
 import { ProjectsComponent } from './services/projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProjectsComponent } from './services/projects/projects.component';
     OurServicesComponent,
     BusinessComponent,
     IndividualsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
