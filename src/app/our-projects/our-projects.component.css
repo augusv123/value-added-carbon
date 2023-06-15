@@ -1,0 +1,16 @@
+::ng-deep.carousel-item {
+    height: 500px !important;
+}
+
+.container {
+    height: 500px;
+}
+
+img:not(.shape-container) {
+    object-fit: cover;
+}
+
+.shape-container {
+    background-image: url('/assets/img/nicolas-cool-_6d-Hgu0Wdo-unsplash.jpg');
+    background-position: center;
+}
