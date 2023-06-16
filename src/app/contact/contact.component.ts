@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
+  focus: any;
+  focus1: any;
   constructor() { }
 
   ngOnInit(): void {
