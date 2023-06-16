@@ -6,3 +6,7 @@
     // background-image: url('/assets/img/landing/home-bg.jpg');
 }
 
+.custom-background {
+    background: linear-gradient(345deg, rgba(252,252,252,1) 0%, rgba(62,74,154,1) 44%);
+    clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%)
+}
