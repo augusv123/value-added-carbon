@@ -16,6 +16,7 @@ var navbarHeight = 0;
 })
 export class AppComponent implements OnInit {
     private _router: Subscription;
+    useNormalLogo = true;
 
     constructor( private renderer : Renderer2, private router: Router, @Inject(DOCUMENT,) private document: any, private element : ElementRef, public location: Location) {}
     @HostListener('window:scroll', ['$event'])
@@ -27,6 +28,7 @@ export class AppComponent implements OnInit {
             return;
 
         var navbar = document.getElementsByTagName('nav')[0];
+        var navlogo = document.getElementById('navlogo');
 
         // If they scrolled down and are past the navbar, add class .headroom--unpinned.
         // This is necessary so you never see what is "behind" the navbar.
@@ -36,6 +38,8 @@ export class AppComponent implements OnInit {
                 navbar.classList.remove('headroom--pinned');
                 navbar.classList.add('headroom--unpinned');
             }
+            this.useNormalLogo = true;
+
             // $('.navbar.headroom--pinned').removeClass('headroom--pinned').addClass('headroom--unpinned');
         } else {
             // Scroll Up
@@ -46,6 +50,7 @@ export class AppComponent implements OnInit {
                     navbar.classList.remove('headroom--unpinned');
                     navbar.classList.add('headroom--pinned');
                 }
+                this.useNormalLogo = false;
             }
         }
 

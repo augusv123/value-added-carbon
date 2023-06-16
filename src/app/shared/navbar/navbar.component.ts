@@ -1,7 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
 
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = 0;
 @Component({
     selector: 'app-navbar',
     templateUrl: './navbar.component.html',
@@ -11,6 +15,8 @@ export class NavbarComponent implements OnInit {
     public isCollapsed = true;
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
+    useNormalLogo = true;
+    
 
     constructor(public location: Location, private router: Router) {
     }
@@ -33,6 +39,31 @@ export class NavbarComponent implements OnInit {
          this.lastPoppedUrl = ev.url;
      });
     }
+
+    @HostListener('window:scroll', ['$event'])
+    hasScrolled() {
+
+        var st = window.pageYOffset;
+
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+
+        if (st > lastScrollTop && st > navbarHeight){
+            console.log('scrolling unpinned')
+            this.useNormalLogo = true;
+
+        } else {
+    
+            if(st + window.innerHeight < document.body.scrollHeight) {
+            console.log('scrolling pinned')
+                
+                this.useNormalLogo = false;
+            }
+        }
+
+        lastScrollTop = st;
+    };
 
     isHome() {
         var titlee = this.location.prepareExternalUrl(this.location.path());

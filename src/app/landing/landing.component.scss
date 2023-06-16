@@ -1,8 +1,8 @@
 .landing-image {
-    background-image: url('/assets/img/landing/forest.jpg');
+    background-image: url('/assets/img/landing/treefull.jpg') !important;
     // background-image: url('/assets/img/landing/forest2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    // background-size: cover;
+    background-attachment: fixed !important;
     // background-image: url('/assets/img/landing/home-bg.jpg');
 }
 
@@ -10,3 +10,28 @@
     background: linear-gradient(345deg, rgba(252,252,252,1) 0%, rgba(62,74,154,1) 44%);
     clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%)
 }
+
+.section-shaped .shape-default :nth-child(1) {
+    background: #3e4a9a !important;
+}
+.section-shaped .shape-default :nth-child(2) {
+    background: #4d558c !important;
+}
+.section-shaped .shape-default :nth-child(3) {
+    background: #5b5f7e  !important;
+}
+.section-shaped .shape-default :nth-child(5) {
+    background: #3e4a9a !important;
+}
+.section-shaped .shape-default :nth-child(6) {
+    background: #4d558c !important;
+}
+.section-shaped .shape-default :nth-child(7) {
+    background: #5b5f7e  !important;
+}
+.section-shaped .shape-default :nth-child(9) {
+    background: #3e4a9a !important;
+}
+
+
+
