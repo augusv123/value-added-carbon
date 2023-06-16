@@ -1,7 +1,8 @@
 .landing-image {
     background-image: url('/assets/img/landing/forest.jpg');
     // background-image: url('/assets/img/landing/forest2.jpg');
-    // background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
     // background-image: url('/assets/img/landing/home-bg.jpg');
 }
 
