@@ -14,6 +14,7 @@ import { IndividualsComponent } from './services/individuals/individuals.compone
 import { ProjectsComponent } from './services/projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { OurProjectsComponent } from './our-projects/our-projects.component';
+import { ScrollParallaxComponent } from './scroll-parallax/scroll-parallax.component';
 
 const routes: Routes =[
     { path: 'home',             component: LandingComponent },
@@ -27,6 +28,7 @@ const routes: Routes =[
     { path: 'services/business', component: BusinessComponent},
     { path: 'services/individuals', component: IndividualsComponent},
     { path: 'services/projects', component: ProjectsComponent},
+    { path: 'scroll-parallax', component: ScrollParallaxComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
