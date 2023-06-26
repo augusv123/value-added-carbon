@@ -22,6 +22,7 @@ import { ProjectsComponent } from './services/projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { OurProjectsComponent } from './our-projects/our-projects.component';
 import { ScrollParallaxComponent } from './scroll-parallax/scroll-parallax.component';
+import { ProjectsCardsComponent } from './projects-cards/projects-cards.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ScrollParallaxComponent } from './scroll-parallax/scroll-parallax.compo
     ProjectsComponent,
     ContactComponent,
     OurProjectsComponent,
-    ScrollParallaxComponent
+    ScrollParallaxComponent,
+    ProjectsCardsComponent
   ],
   imports: [
     BrowserModule,

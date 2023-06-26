@@ -1,0 +1,7 @@
+.section-shaped {
+    height: 650px;
+}
+
+img:not(.shape-container) {
+    object-fit: cover;
+}
