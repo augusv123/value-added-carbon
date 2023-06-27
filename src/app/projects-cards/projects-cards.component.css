@@ -1,7 +1,24 @@
-.section-shaped {
-    height: 650px;
+.card-container {
+    height: 800px;
 }
 
 img:not(.shape-container) {
     object-fit: cover;
+}
+
+::ng-deep .carousel-item {
+    height: 600px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.card {
+    margin: 1rem;
 }
