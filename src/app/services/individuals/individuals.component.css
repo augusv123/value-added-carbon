@@ -16,7 +16,7 @@
     min-height: 400px;
     border: none !important;
     box-shadow: none !important;
-    background: linear-gradient(273deg, rgba(62,74,154,0.5) 10%, rgba(77,85,140,0.5) 36%);
+    background: linear-gradient(273deg, rgba(62,74,154,0.2) 10%, rgba(77,85,140,0.3) 36%);
     clip-path: polygon(0 0%, 100% 0%, 100% 92%, 0% 100%);
 }
 

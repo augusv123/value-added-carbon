@@ -15,7 +15,7 @@
 .tab-content {
     border: none !important;
     box-shadow: none !important;
-    background: linear-gradient(273deg, rgba(62,74,154,0.5) 10%, rgba(77,85,140,0.5) 36%);
+    background: linear-gradient(273deg, rgba(204,204,204,1) 0%, rgba(62,74,154,0.2) 25%, rgba(77,85,140,0.3) 75%, rgba(204,204,204,1) 100%);
     clip-path: polygon(0 0%, 100% 0%, 100% 92%, 0% 100%);
 }
 
