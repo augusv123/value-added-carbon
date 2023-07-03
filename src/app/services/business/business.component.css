@@ -1,4 +1,28 @@
 .shape-container {
-    background-image: url('/assets/img/dan-meyers-vouoK_daWL8-unsplash.jpg');
-    background-position: center;
+    background: linear-gradient(125deg, rgba(252, 252, 252, 1) 0%, rgba(62, 74, 154, 1) 38%, rgba(77, 85, 140, 1) 63%) !important;
+    clip-path: polygon(0 0%, 100% 0%, 100% 92%, 0% 100%);
+}
+
+.section-shaped .shape-default :nth-child(1) {
+    background: #3e4a9a !important;
+}
+
+.tabs-container .nav {
+    margin: 50px auto;
+    max-width: 75%
+}
+
+.tab-content {
+    border: none !important;
+    box-shadow: none !important;
+    background: rgb(252,252,252);
+    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(62,74,154,0.5) 100%);
+}
+
+.tab-content h3 {
+    margin: 0 4%;
+}
+
+.tab-content p {
+    margin: 0 2%;
 }
