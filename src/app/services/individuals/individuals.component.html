@@ -1,4 +1,16 @@
-<div class="shape-container d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+<div class="d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+  <div class="shape shape-style-1 shape-primary shape-container">
+    <span class="span-150"></span>
+    <span class="span-50"></span>
+    <span class="span-50"></span>
+    <span class="span-75"></span>
+    <span class="span-100"></span>
+    <span class="span-75"></span>
+    <span class="span-50"></span>
+    <span class="span-100"></span>
+    <span class="span-50"></span>
+    <span class="span-100"></span>
+  </div>
     <div class="col px-0">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-10 text-center">
@@ -11,18 +23,17 @@
     </div>
   </div>
   
-  <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
+  <div class="tabs-container">
+      <div class="justify-content-center">
   <div class="custom-tab-content flex-column flex-md-row">
       <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav nav-pills justify-content-center" type="pills">
         <li class="nav-item" [ngbNavItem]="1">
           <a class="nav-link" ngbNavLink><i class="ni ni-calendar-grid-58 mr-2"></i>Learn</a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
-              <h3>Placeholder</h3>
-              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
-              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            <div class="tab-content pb-5">
+              <h3 class="text-white">Placeholder</h3>
+              <p class="description text-white">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description text-white">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
             </div>
           </ng-template>
         </li>
@@ -31,10 +42,10 @@
             <i class="ni ni-cloud-upload-96 mr-2"></i>Calculate
           </a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
-              <h3>Placeholder</h3>
-              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
-              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            <div class="tab-content pb-5">
+              <h3 class="text-white">Placeholder</h3>
+              <p class="description text-white">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description text-white">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
             </div>
           </ng-template>
         </li>
@@ -43,17 +54,16 @@
             <i class="ni ni-map-big mr-2"></i>Offset
           </a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
-              <h3>Placeholder</h3>
-              <p class="description">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
-              <p class="description">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
+            <div class="tab-content pb-5">
+              <h3 class="text-white">Placeholder</h3>
+              <p class="description text-white">Looking for a financing solution that suits your budget and meets your industry's unique needs?</p>
+              <p class="description text-white">Look no further! Our team of experts will tailor a portfolio of credits just for you, providing you with the best possible options and extra benefits. Don't settle for less - choose us for a financing experience that's customized to your success.</p>
             </div>
           </ng-template>
         </li>
       </ul>
     </div>
     <div [ngbNavOutlet]="nav" class="custom-tab-content"></div>
-  </div>
   </div>
   </div>
   

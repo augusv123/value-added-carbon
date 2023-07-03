@@ -1,4 +1,16 @@
-<div class="shape-container d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+<div class="d-flex align-items-center py-lg section section-lg section-hero section-shaped">
+  <div class="shape shape-style-1 shape-primary shape-container">
+    <span class="span-150"></span>
+    <span class="span-50"></span>
+    <span class="span-50"></span>
+    <span class="span-75"></span>
+    <span class="span-100"></span>
+    <span class="span-75"></span>
+    <span class="span-50"></span>
+    <span class="span-100"></span>
+    <span class="span-50"></span>
+    <span class="span-100"></span>
+  </div>
     <div class="col px-0">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-10 text-center">
@@ -11,15 +23,14 @@
     </div>
   </div>
   
-  <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
-  <div class="custom-tab-content flex-column flex-md-row">
+  <div class="tabs-container">
+      <div class="justify-content-center">
+  <div class="custom-tab-content flex-column flex-md-row mb-5">
       <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav nav-pills justify-content-center" type="pills">
         <li class="nav-item" [ngbNavItem]="1">
           <a class="nav-link" ngbNavLink><i class="ni ni-user-run mr-2"></i>Develop</a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
+            <div class="tab-content pb-5">
               <h3>Social Impact Strategy Development</h3>
               <p class="description">Unlock the full potential of your carbon project with Carbon Added Value's strategic analysis of social impact opportunities. Our comprehensive report will not only give you an overview of the social impact initiatives available in your project area, but also educate you on how the market responds to different co-benefit segments. With our expertise, you can identify the most valuable co-benefits for your project and maximize the premium your credits can command in the voluntary carbon market. Our goal is to empower you with the information you need to pursue a Value Added Carbon strategy that prioritizes co-benefits as the key driver of value creation. Choose Carbon Added Value for a carbon credit solution that delivers impact on every level.</p>
             </div>
@@ -30,7 +41,7 @@
             <i class="ni ni-map-big mr-2"></i>Strategize
           </a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
+            <div class="tab-content pb-5">
               <h3>Strategic Rendering</h3>
               <p class="description">Take your carbon project to the next level with Carbon Added Value's in-depth analysis of social impact opportunities. Our strategic report goes beyond identifying potential co-benefits - we also provide you with a concrete work plan and reporting structure for implementing social impact initiatives that align with your project's scope, type, and area of operations. Our goal is to equip you with a clear roadmap for maximizing the value of your carbon credits through a Value Added Carbon strategy that prioritizes co-benefits. With Carbon Added Value, you'll have the knowledge and resources you need to take action and make a real impact. Choose us for a carbon credit solution that delivers results.</p>
             </div>
@@ -41,7 +52,7 @@
             <i class="ni ni-settings mr-2"></i>Implement
           </a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
+            <div class="tab-content pb-5">
               <h3>Strategic Implementation (VAC Implementation, Communication, and Commercialization)</h3>
               <p class="description">At Carbon Added Value, we go beyond providing strategic analysis and planning for your carbon project. We also offer comprehensive support for implementing a Value Added Carbon (VAC) strategy focused on co-benefits. Our team is ready to assist with logistical needs, equipment, and ground capacity through our network of trusted partners, ensuring your social impact initiatives are successfully executed.</p>
               <p class="description">But that's not all. We also provide branding assistance, communication guidelines, and material to effectively convey the value of your co-benefits investment. Our goal is to maximize the value added to your carbon credits and showcase your commitment to social and environmental impact.</p>
@@ -55,7 +66,7 @@
             <i class="ni ni-money-coins mr-2"></i>Commercialize
           </a>
           <ng-template ngbNavContent>
-            <div class="tab-content">
+            <div class="tab-content pb-5">
   
               <p class="description">Take your carbon project to the next level with Carbon Added Value's in-depth analysis of social impact opportunities. Our strategic report goes beyond identifying potential co-benefits - we also provide you with a concrete work plan and reporting structure for implementing social impact initiatives that align with your project's scope, type, and area of operations. Our goal is to equip you with a clear roadmap for maximizing the value of your carbon credits through a Value Added Carbon strategy that prioritizes co-benefits. With Carbon Added Value, you'll have the knowledge and resources you need to take action and make a real impact. Choose us for a carbon credit solution that delivers results </p>
   
@@ -65,7 +76,6 @@
       </ul>
     </div>
     <div [ngbNavOutlet]="nav" class="custom-tab-content"></div>
-  </div>
   </div>
   </div>
   

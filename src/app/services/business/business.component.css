@@ -1,5 +1,5 @@
 .shape-container {
-    background: linear-gradient(125deg, rgba(252, 252, 252, 1) 0%, rgba(62, 74, 154, 1) 38%, rgba(77, 85, 140, 1) 63%) !important;
+    background: linear-gradient(125deg, rgba(222, 222, 222, 1) 0%, rgba(62, 74, 154, 1) 38%, rgba(77, 85, 140, 1) 63%) !important;
     clip-path: polygon(0 0%, 100% 0%, 100% 92%, 0% 100%);
 }
 
@@ -15,14 +15,15 @@
 .tab-content {
     border: none !important;
     box-shadow: none !important;
-    background: rgb(252,252,252);
-    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(62,74,154,0.5) 100%);
+    background: linear-gradient(273deg, rgba(62,74,154,0.5) 10%, rgba(77,85,140,0.5) 36%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 92%, 0% 100%);
 }
 
+
 .tab-content h3 {
-    margin: 0 4%;
+    margin: 1% 2%;
 }
 
 .tab-content p {
-    margin: 0 2%;
+    margin: 1% 2%;
 }
